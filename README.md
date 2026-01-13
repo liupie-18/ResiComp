@@ -6,6 +6,26 @@ paper "[ResiComp: Loss-Resilient Image Compression via Dual-Functional Masked Vi
 
 <img src="figs/Fig_framework.png"  style="zoom: 33%;" />
 
+## 📚 Documentation
+
+To help you better understand and use this project, we provide comprehensive documentation:
+
+### English Documentation
+- **[Project Structure](PROJECT_STRUCTURE.md)**: Detailed explanation of the codebase organization, directory structure, and key components
+- **[Model Design](MODEL_DESIGN.md)**: In-depth technical documentation of the ResiComp architecture, dual-functional transformer, and packet loss resilience mechanisms
+
+### 中文文档 (Chinese Documentation)
+- **[项目结构说明](docs/zh/PROJECT_STRUCTURE_ZH.md)**: 代码库组织、目录结构和关键组件的详细说明
+- **[模型设计说明](docs/zh/MODEL_DESIGN_ZH.md)**: ResiComp 架构、双功能 Transformer 和丢包弹性机制的深入技术文档
+
+These documents cover:
+- Complete project structure and file organization
+- Detailed model architecture and components
+- Training and inference pipelines
+- Packet loss resilience mechanisms
+- Context modeling strategies
+- Development workflow and best practices
+
 ## Requirements
 
 Clone the repo and create a conda environment (we use PyTorch 1.9, CUDA 11.1).
